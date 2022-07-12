@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
 
     <title>JavaScript Basics Control Flow Lab </title>
@@ -9,9 +10,9 @@
 
     <link rel="stylesheet" href="node_modules/mocha/mocha.css">
     <link rel="stylesheet" href="styles/index.css">
-  </head>
+</head>
 
-  <body>
+<body>
 
     <div id="clock"></div>
     <!-- <div> for Mocha to display test results. -->
@@ -19,7 +20,9 @@
 
     <!-- Include Mocha and set it up for BDD-style testing. -->
     <script src="node_modules/mocha/mocha.js"></script>
-    <script>mocha.setup('bdd');</script>
+    <script>
+        mocha.setup('bdd');
+    </script>
 
     <!-- Include Chai as the matcher library. -->
     <script src="node_modules/chai/chai.js"></script>
@@ -32,5 +35,6 @@
 
     <!-- Include Flatiron School's test runner to push results to Learn. -->
     <script src="node_modules/learn-browser/learnBrowser.min.js"></script>
-  </body>
+</body>
+
 </html>
